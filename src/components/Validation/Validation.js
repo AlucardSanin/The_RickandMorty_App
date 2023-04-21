@@ -1,7 +1,7 @@
 const validation = (userData) => {
   const errors = {};
 
-  if(!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(userData.email)){
+  if(!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(.\w{2,3})+$/.test(userData.email)){
     errors.email = 'Ingrese un email valido';
   }
 

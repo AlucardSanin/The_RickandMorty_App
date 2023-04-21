@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import './App.css';
 import Nav from './components/Nav/Nav';
 import Cards from './components/Cards/Cards.jsx';
